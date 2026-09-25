@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+    border: border-box;
+    /*all the content are coming in the box---donot goes outside the boxx */
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+}
+
+.logo {
+    background-image: url("images.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    /*set the size of element as bacground image*/
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box-2 */
+.location {
+    font-size: 13px;
+    color: grey;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+.india {
+    margin-left: 2px;
+}
+
+/* box-3 */
+.nav-search {
+    background-color: pink;
+    height: 40px;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+/* .nav-search:hover{
+    border: 2px solid orange;
+} */
+.search-select {
+    background-color: white;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.magni-glass {
+    color: black;
+}
+
+.input-search {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    font-size: 22px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* boc-4 */
+.sign-nav {
+    font-size: 13px;
+    /* color: grey; */
+    font-weight: bold;
+}
+
+.account {
+    font-weight: bold;
+}
+
+/* box-5 */
+.order {
+    font-weight: bold;
+}
+
+.nav-return {
+    font-size: 13px;
+    /* color: grey; */
+    font-weight: bold;
+}
+
+.carts {
+    color: orange;
+    font-size: 30px;
+}
+
+.cart {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 34px;
+}
+
+.pannel {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(49, 48, 48);
+}
+
+.pannel-option {
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+    align-items: center;
+    width: 70%;
+}
+
+/* hero section */
+.hero-section {
+
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+}
+
+.major {
+    background-image: url(major.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 340px;
+    width: 100%;
+
+}
+
+.upalexa {
+    background-image: url(upalexa.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+.alexa{
+    background-image: url(alexa.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+.om1{
+    background-image:url(om.jpg);
+    background-size: cover;
+    height: 425px;
+    width: 265px;
+
+}
+.om2{
+    background-image:url(om1.jpg);
+    background-size: cover;
+    height: 425px;
+    width: 265px;
+}
+.om3{
+    background-image:url(om7.jpg);
+    background-size: cover;
+    height: 425px;
+    width: 265px;
+}
+.om4{
+    background-image:url(om3.jpg);
+    background-size: cover;
+    height: 425px;
+    width: 265px;
+}
+.om5{
+    background-image:url(om8.jpg);
+    background-size: cover;
+    height: 425px;
+    width: 265px;
+}
+.om6{
+    background-image:url(om4.jpg);
+    background-size: cover;
+    height: 425px;
+    width: 265px;
+}
+.om7{
+    background-image:url(om5.jpg);
+    background-size: cover;
+    height: 425px;
+    width: 265px;
+} 
